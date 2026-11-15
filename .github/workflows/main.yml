@@ -19,7 +19,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-          cache: maven
 
       - name: Extract Source
         run: unzip -o DeathDimensionV3-Source.zip -d .
